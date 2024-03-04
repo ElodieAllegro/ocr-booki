@@ -81,67 +81,78 @@ h2 {
     font-weight: 400;
 }
 
-.afficher-plus {
-    font-weight: 500;
-    margin: 10px 0px 0px 0px;
-    font-size: 18px;
+ /* contenaire des filtres de recherche */
+.filter-container {
+    padding: 0px;
+    margin-left: 5px;
 }
-
 
 #pins {
     background-color: #F2F2F2;
-    padding: 8px 10px;
+    padding: 12px 10px;
     border: 1px solid #D9D9D9;
     border-radius: 10px 0px 0px 10px;
 }
 
 input {
-    padding: 8px;
+    padding: 12px;
     border: 1px solid #D9D9D9;
     border-radius: 0;
+    font-size: 18px;
+    
 }
+input::placeholder {
+    color:black; 
+  }
 
 button.search {
-    padding: 8px 20px;
+    padding: 12px 20px;
     background-color: #0065FC;
     color: #FFFFFF;
     border: 1px solid #0065FC;
     border-radius: 0px 10px 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.filter-container {
-    /* contenaire des filtres de recherche */
-    padding: 0px;
-    margin-left: 5px;
-}
+/* section filtre-container */
 .filtre {
     margin-top: 10px;
     display: flex;
-
 }
 .filtre li {
     list-style-type: none;
     font-weight: 500;
-    margin: 10px 15px;
+    margin: 10px 7px;
     padding: 12px;
     border: #D9D9D9 2px solid;
     border-radius: 25px;
 }
-
-
 .filtre li:hover {
     background-color: #DEEBFF;
 }
 
 .filtre li i{
-    margin: 0px 10px;
+    margin: 0px 8px;
 }
 
 .info {
     margin: 3vh 0vh;
 }
+/* icon info */
+.info i::before{
+   width: 10px;
+   height:10px;
+   margin-left: 6px;
+}
 
-/* section card */
+.fa-info {
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 18px;
+    height:18px;
+  }
+/* ********------- section card --------********* */
 
 .card {
     background-color: white;
@@ -165,8 +176,12 @@ button.search {
 .neutral-star {
     color: var(--main-bg-color)
 }
-
-/****** Hebergements And Populaires ***********/
+.afficher-plus {
+    font-weight: 500;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+}
+/****** -----Hebergements And Populaires------- ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -185,7 +200,7 @@ button.search {
     font-size: 22px;
 }
 
-/****** Hebergements ***********/
+/****** -------- Hebergements------- ***********/
 .hebergements {
     display: flex;
     flex-direction: column;
