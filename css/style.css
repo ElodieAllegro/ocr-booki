@@ -50,7 +50,6 @@ ul {
     justify-content: first baseline;
     margin: 0%;
 }
-
 nav li {
     list-style-type: none;
     margin: 0px 0px 0px 30px;
@@ -61,8 +60,6 @@ nav li:hover {
     color: #0065FC;
     border-top: #0065FC 2px solid;
 }
-
-
 
 .recherche {
     margin-top: 6vh;
@@ -86,10 +83,16 @@ h2 {
 }
 #pins {
     background-color: #F2F2F2;
-    padding: 12px 10px;
     border: 1px solid #D9D9D9;
     border-radius: 10px 0px 0px 10px;
+    width: 14px;
+    height: 17px;
+    padding: 14px;
+
 }
+/* #pins ::before{
+    padding: 20px;
+} */
 
 input {
     padding: 12px;
@@ -97,8 +100,8 @@ input {
     border-radius: 0;
     font-size: 18px;
     font-weight:bold ;
-    
 }
+
 input::placeholder {
     color:black; 
   }
@@ -133,6 +136,7 @@ button.search {
     border: #D9D9D9 2px solid;
     border-radius: 25px;
 }
+
 .filtre li:hover {
     background-color: #DEEBFF;
 }
@@ -164,6 +168,7 @@ button.search {
     margin: 3px 10px ;
     padding: 0%;
 }
+
 /* ********------- section card --------********* */
 
 .card {
@@ -577,7 +582,6 @@ footer .footer-section nav a {
     }
 
     .menu ul {
-
         justify-content: space-between;
         padding: 0;
         list-style: none;
@@ -587,9 +591,11 @@ footer .footer-section nav a {
         margin: 0;
         border-top: 2px solid transparent;
     }
+
     nav li:hover {
         border-bottom: #0065FC 2px solid;
     }
+
     .filter-container {
         padding: 0px;
         margin:0px;
@@ -598,20 +604,21 @@ footer .footer-section nav a {
     .title-recherche{
         padding: 10px 0px;
     }
+
+        /* section recherche */
     .recherche-container {
         width: 95%; 
         margin: 10px 0; 
     }
 
     #pins {
-        width: 5%; 
+        width:5%; 
         padding: 8px 8px;
     }
    
     input {
         width: 70%;
         padding: 8px 18px;
-     
     }
    
     .search-text {
@@ -628,8 +635,6 @@ footer .footer-section nav a {
         border-radius: 25%;
        
     }
-    
-
     .filtre li {
         display: flex;
         flex-direction: row;
@@ -638,7 +643,7 @@ footer .footer-section nav a {
         padding: 2%;
         margin: 2%;
     }
-
+        /* section main  */
     main{
         margin: 0%;
         padding: 0%;
@@ -729,6 +734,7 @@ footer .footer-section nav a {
         align-items: center;
         object-fit: cover;
     }
+
  /* ******* le section activite ******* */
  .activites-cards {
     flex-direction: column; 
