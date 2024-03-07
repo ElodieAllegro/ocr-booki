@@ -63,7 +63,7 @@ nav li:hover {
 }
 
 .recherche {
-    margin-top: 36px;
+    margin-top: 45px;
 }
 
 h1 {
@@ -79,7 +79,7 @@ h2 {
 
 /* contenaire des filtres de recherche */
 .recherche-container {
-    margin-top: 18px;
+    margin: 20px 0px;
     display: flex;
 }
 
@@ -90,23 +90,24 @@ h2 {
     width: 14px;
     height: 17px;
     padding: 14px;
-
 }
 
-/* #pins ::before{
+#pins ::before{
     padding: 20px;
-} */
+}
 
 input {
-    padding: 12px;
+    width: 150px;
+    padding: 1Opx;
     border: 1px solid #D9D9D9;
     border-radius: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 input::placeholder {
     color: black;
+    padding: 0px 6px;
 }
 
 button.search {
@@ -115,8 +116,8 @@ button.search {
     color: #FFFFFF;
     border: 1px solid #0065FC;
     border-radius: 0px 10px 10px 0px;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .search-icon {
@@ -125,6 +126,9 @@ button.search {
 }
 
 /* section filtre-container */
+.filtres-container {
+    margin-bottom: 30px;
+}
 .filter-container {
     padding: 0px;
     margin-left: 5px;
@@ -138,8 +142,8 @@ button.search {
 .filtre li {
     list-style-type: none;
     font-weight: 500;
-    margin: 10px 7px;
-    padding: 12px;
+    margin: 10px 8px;
+    padding: 10px;
     border: #D9D9D9 2px solid;
     border-radius: 25px;
 }
