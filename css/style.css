@@ -1,6 +1,8 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -60,7 +62,7 @@ nav li {
     padding-top: 10px;
 }
 
-nav li:hover {
+nav li :hover{
     color: #0065FC;
     border-top: #0065FC 2px solid;
 }
@@ -574,7 +576,9 @@ footer .footer-section nav a {
         width: 100%;
 
     }
-
+    footer .footer-section{
+        margin: 5px;
+    }
     footer .footer-section nav a {
         margin: 5px 0px;
     }
@@ -824,13 +828,15 @@ footer .footer-section nav a {
         margin-left: 15px;
     }
 /* ***  section footer   *** */
-
+    /* footer{
+    overflow: auto;
+    } */
     footer .footer-sections {
         flex-direction: column;
-        padding: 7.5px;
+      
     }
 
     .footer-section {
-        margin: 20px 0px;
+        margin: 20px 10px;
     }
 }
