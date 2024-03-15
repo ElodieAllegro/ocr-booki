@@ -410,6 +410,12 @@ footer .footer-section nav a {
 @media (max-width: 1024px) {
   
     /* ********* header ********** */
+
+
+
+    nav li:hover {
+        border-top:none;
+    }
     .filter {
         margin: 0px;
     }
